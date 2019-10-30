@@ -4,6 +4,9 @@ def normal(i):
 def normal(x):
     return x * x
 
+def cuadrado(x):
+    return x * x
+
 
 def sumaTodos(limitTo,f):
     resultado = 0
@@ -12,5 +15,8 @@ def sumaTodos(limitTo,f):
         
     return resultado
  
-print(sumaTodos(100, normal))
+if __name__ == '__main__':
+    print(sumaTodos(100, normal))
+    print(sumaTodos(2, cuadrado))
+ 
  
